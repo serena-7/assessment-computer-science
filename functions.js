@@ -1,4 +1,4 @@
-//1. Sum Zero // Time Complexity: O(n^2) Space Complexity: O(n)
+//1. Sum Zero // Time Complexity: O(n^2) Space Complexity: O(1)
 function addToZero(arr){
     for(let i = 0; i < arr.length; i++){
         for(let j = i + 1; j < arr.length; j++){
